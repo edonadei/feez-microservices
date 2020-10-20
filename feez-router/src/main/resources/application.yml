@@ -1,0 +1,7 @@
+server:
+  port: 8484
+zuul:
+  routes:
+    comparator:
+      path: /comparator/**
+      url: http://localhost:8081/
